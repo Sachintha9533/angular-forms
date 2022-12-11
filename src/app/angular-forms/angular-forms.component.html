@@ -1,5 +1,5 @@
 <div class="container">
-  <form>
+  <form  [form-group]="Form" (ngSubmit)="onSubmit()">
     <h1>Angular Form</h1>
     <div class="form-group">
       <label for="model">Model</label><br />
